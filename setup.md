@@ -19,3 +19,6 @@ sudo wget https://github.com/cloudflare/cloudflared/releases/latest/download/clo
 # Start CloudFlares
 
 cloudflared tunnel --url http://localhost:5678
+
+# Stop n8n 
+podman stop n8n
