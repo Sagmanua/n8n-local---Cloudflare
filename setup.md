@@ -22,3 +22,11 @@ cloudflared tunnel --url http://localhost:5678
 
 # Stop n8n 
 podman stop n8n
+
+# Nano excute 
+
+nano start-n8n.sh
+
+chmod +x start-n8n.sh
+
+./start-n8n.sh
